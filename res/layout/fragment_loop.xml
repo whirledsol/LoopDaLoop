@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hci.loopdaloop.LoopActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/delete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/record2"
+        android:layout_alignBottom="@+id/record2"
+        android:layout_alignLeft="@+id/delete"
+        android:background="@color/green_foreground"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/mute2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/delete2"
+        android:layout_alignBottom="@id/delete2"
+        android:layout_alignLeft="@+id/mute"
+        android:background="@color/green_foreground"
+        android:text="Mute" />
+
+    <Button
+        android:id="@+id/record2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/record"
+        android:layout_below="@+id/textView3"
+        android:background="@color/green_foreground"
+        android:text="Record" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="Track 1" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:background="@color/green_foreground"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/record"
+        android:layout_alignBottom="@+id/record"
+        android:layout_toLeftOf="@+id/mute"
+        android:background="@color/green_foreground"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delete"
+        android:layout_alignBottom="@+id/delete"
+        android:layout_alignParentRight="true"
+        android:background="@color/green_foreground"
+        android:text="Mute" />
+
+    <Button
+        android:id="@+id/volup2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/delete2"
+        android:background="@color/green_foreground"
+        android:text="/\\" />
+
+    <Button
+        android:id="@+id/voldown2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/volup2"
+        android:background="@color/green_foreground"
+        android:text="\\/" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/record"
+        android:layout_below="@+id/record"
+        android:text="Track 2" />
+
+    <Button
+        android:id="@+id/volup3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/voldown3"
+        android:layout_alignBottom="@+id/voldown3"
+        android:layout_toLeftOf="@+id/delete2"
+        android:background="@color/green_foreground"
+        android:text="/\\" />
+
+    <Button
+        android:id="@+id/delete3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/volup3"
+        android:layout_toLeftOf="@+id/mute2"
+        android:background="@color/green_foreground"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/mute3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delete3"
+        android:layout_alignBottom="@+id/delete3"
+        android:layout_alignLeft="@+id/mute2"
+        android:background="@color/green_foreground"
+        android:text="Mute" />
+
+    <Button
+        android:id="@+id/delete4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/volup4"
+        android:layout_toRightOf="@+id/volup4"
+        android:background="@color/green_foreground"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/mute4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delete4"
+        android:layout_alignBottom="@+id/delete4"
+        android:layout_toRightOf="@+id/delete4"
+        android:background="@color/green_foreground"
+        android:text="Mute" />
+
+    <Button
+        android:id="@+id/volup"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/delete"
+        android:background="@color/green_foreground"
+        android:text="/\\" />
+
+    <Button
+        android:id="@+id/voldown"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/volup"
+        android:layout_alignBottom="@+id/volup"
+        android:layout_toLeftOf="@+id/volup"
+        android:background="@color/green_foreground"
+        android:text="\\/" />
+
+    <Button
+        android:id="@+id/record3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/voldown3"
+        android:background="@color/green_foreground"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/record4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/voldown4"
+        android:background="@color/green_foreground"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/voldown3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volup2"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/volup3"
+        android:background="@color/green_foreground"
+        android:text="\\/" />
+
+    <Button
+        android:id="@+id/voldown4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/volup4"
+        android:layout_alignBottom="@+id/volup4"
+        android:layout_toLeftOf="@+id/volup4"
+        android:background="@color/green_foreground"
+        android:text="\\/" />
+
+    <Button
+        android:id="@+id/volup4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volup3"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/delete3"
+        android:background="@color/green_foreground"
+        android:text="/\\" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/record3"
+        android:layout_alignLeft="@+id/record3"
+        android:text="Track 3" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/record4"
+        android:layout_alignLeft="@+id/record4"
+        android:text="Track 4" />
+
+    <TextView
+        android:id="@+id/bpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bpmdisplay"
+        android:layout_alignLeft="@+id/mute4"
+        android:text="bpm" />
+
+    <TextView
+        android:id="@+id/bpmdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/plus"
+        android:layout_toLeftOf="@+id/bpm"
+        android:editable="true"
+        android:text="120"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:layout_toLeftOf="@+id/bpmdisplay"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/metroStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/plus"
+        android:layout_alignBottom="@+id/plus"
+        android:layout_toLeftOf="@+id/minus"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/plus"
+        android:layout_alignLeft="@+id/voldown4"
+        android:text="-" />
+
+</RelativeLayout>

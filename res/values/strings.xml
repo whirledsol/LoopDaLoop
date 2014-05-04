@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoopDaLoop</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loop">LoopActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\n\nCONTENT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="tutorialText">Shoop da Loop is a music creation application. You can create 16-beat tracks that harmonize together to create anything you can imagine. The possibilities are endless! For each track, you record 16 beats of music, which loop infinitely. You can record up to four tracks, each which record and play simultaneously with the metronome, which gives you a beat to keep your recordings in sync.\n\nIn the main menu, you can hit the new button to start a recording session. To start recording, first you need to pick a tempo. Use the metronome\'s up and down buttons to select a tempo in Beats per Minute (BPM), and hit start to turn on the metronome. The metronome counts from one to sixteen. This is the number of beats each track records for, so feel free to do as much or as little as you want to in that time.\n\nOnce the metronome is running, you can record a track. When you click the record button on a track, it will start recording on the next 16-beat pattern. So, if you hit \'record\' at 4, the button will count down from 12 to 1, and then you\'ll be recording. Once a track makes it through the sixteen beats of recording, it will play back your session as long as you want. From there, just select another track you want to record and you can record a track that goes with your previous session. If you want, you could sound like a complex beatboxer, or you could be your own barbershop quartet.\n\nWithin each track you have the ability to control the volume. The up and down arrows raise and lower the volume of the one track, and mute will silence the track altogether. Don\'t worry; the track is still there, and you can unmute it at any time! If a recording session didn\'t go well, use the delete button to get rid of that track. You can always make a new one in its place!</string>
+
+</resources>
